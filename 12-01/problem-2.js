@@ -8,5 +8,5 @@ function createFunctions(n) {
   return callbacks;
 }
 
-console.log(createFunctions(5)[0]()); // 0
-console.log(createFunctions(5)[3]()); // 3
+console.log(createFunctions(5)[0]());  // 0
+console.log(createFunctions(5)[3]());  // 3
